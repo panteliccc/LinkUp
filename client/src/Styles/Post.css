@@ -1,0 +1,35 @@
+.user img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.user p{
+    color: var(--text);
+    font-weight: 500;
+}
+
+.Post .icons img{
+    height: 24px;
+}
+
+.likes, .comm{
+    color: var(--text);
+}
+
+.likes span, .comm span{
+    font-weight: 500;
+}
+
+.comm > p:nth-child(2){
+    font-weight: 300;
+}
+
+.comm > p:nth-child(3){
+    font-weight: 300;
+    font-size: 0.6875rem;
+}
+
+

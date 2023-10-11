@@ -1,0 +1,7 @@
+.Menu{
+    background: var(--background);
+}
+
+.Menu img{
+    height: 24px;
+}

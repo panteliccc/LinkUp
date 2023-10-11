@@ -1,0 +1,27 @@
+:root{
+    --background: #111317;
+    --text: #DBE0F0;
+    --primary: #7A95CD;
+    --red: #DC143C;
+    --gray: #999999;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: var(--background);
+}
+
+p{
+    margin-bottom: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
