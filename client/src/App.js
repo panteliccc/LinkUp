@@ -5,9 +5,9 @@ import './Styles/Header.css'
 import './Styles/Post.css'
 import './Styles/Menu.css'
 //Components
-import Header from './Components/Header';
-import Post from './Components/Post';
-import Menu from './Components/Menu';
+import Header from './components/Header';
+import Post from './components/Post';
+import Menu from './components/Menu';
 
 function App(){
     return(
