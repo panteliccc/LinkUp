@@ -1,0 +1,77 @@
+.Login, .Register1, .Register2, .Register3{
+    min-height: 100vh;
+}
+
+.Login p:first-child, .Register1 p:first-child, .Register2 p:first-child, .Register3 p:first-child{
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.Login p:last-child, .Register1 p:last-child{
+    color: var(--gray);
+}
+
+.Login p:last-child span, .Register1 p:last-child span{
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.Login input, .Register1 input, .Register2 input{
+    border-radius: 0.375rem;
+    outline: 0;
+    border: 0;
+    background: var(--text);
+    color: var(--background);
+}
+
+.Login input::placeholder, .Register1 input::placeholder, .Register2 input::placeholder{
+    color: var(--gray);
+}
+
+.Login button, .Register1 button, .Register2 button, .Register3 button{
+    border-radius: 0.375rem;
+    outline: 0;
+    border: 0;
+    background: var(--primary);
+    color: var(--text);
+}
+
+.Register3 input[type="file"] {
+    color: transparent;
+}
+
+.Register3 input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.Register3 input[type="file"]::before {
+    content: '';
+    display: inline-block;
+    background-image: url("../../public/images/add_photo.svg");
+    background-size: contain;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Register3 input[type="file"]:hover::before {
+    border-color: black;
+}
+
+.Register3 input[type="file"]:active {
+    outline: 0;
+}
+
+.Register3 input[type="file"]:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+}
+
+.Register3 label{
+    color: var(--text);
+}
